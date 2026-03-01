@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sam-toolkit"
+version = "0.1.0"
+description = "Sam's Python-first toolkit for scripts, CLI utilities, and SQL helpers."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+sam-toolkit = "sam_toolkit.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

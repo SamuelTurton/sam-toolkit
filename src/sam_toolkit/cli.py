@@ -1,5 +1,6 @@
 import argparse
 
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(prog="sam-toolkit")
     parser.add_argument("--version", action="store_true", help="Show version and exit")

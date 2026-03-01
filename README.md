@@ -12,3 +12,4 @@ pip install -e .
 pytest
 sam-toolkit --version
 
+test enforcement
